@@ -25,3 +25,19 @@
 .btn-light i {
   color: var(--primary) !important;
 }
+
+.slider-nav {
+  max-height: 250px;
+}
+
+@media (max-width: 1200px) {
+  .slider-nav {
+    max-height: 300px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .slider-nav {
+    max-height: 350px;
+  }
+}
