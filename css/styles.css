@@ -75,3 +75,16 @@
 .price-wrap .price-discount {
   font-size: 1.2rem;
 } */
+
+.breadcrumb a{
+  color: #fff;
+  opacity: .9;
+}
+
+.breadcrumb .breadcrumb-item {
+  color: #fff;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+  color: #fff;
+}
